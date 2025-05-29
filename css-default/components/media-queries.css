@@ -1,0 +1,21 @@
+@media (min-width: 1024px) and (max-width: 1190px) {
+    main {
+        background-color: violet;
+    }
+
+    .landing__banner--container {
+        width: 20%;
+        height: 5rem;
+    }
+
+    .landing__banner--container img {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+}
+
